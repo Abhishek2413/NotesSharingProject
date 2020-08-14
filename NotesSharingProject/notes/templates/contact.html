@@ -1,0 +1,239 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+
+
+<div style="background-color: green;width: 100%;height:100px">
+    <h3 class="text-white container pt-3">Contact Us</h3>
+</div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0901073803852!2d77.3702080150825!3d28.627061382419832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce559f2f10ff3%3A0x4124e840e82025e5!2sAlgoscale!5e0!3m2!1sen!2sin!4v1597375795072!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+        <div class="col-md-1 mt-5"></div>
+        <div class="col-sm-5 mt-5">
+            <p><i class="fas fa-envelope fa-lg" style="color:blue;"></i><span style="font-weight: bold;"> Email Id :</span> singhabhishek0365@gmail.com</p>
+            <p><i class="fas fa-phone-square fa-lg" style="color:blue;"></i><span style="font-weight: bold;"> Contact :</span> 7028436873</p>
+            <p><i class="fas fa-address-card fa-lg" style="color:blue;"></i><span style="font-weight: bold;"> Address :</span> Noida, Uttar Pradesh 201301</p>
+                                                                
+            <p><i class="fas fa-clock" style="color:blue;"></i><span style="font-weight: bold;"> Office Hours :</span> 10:00 to 7:00</p>
+            <hr class="my-3">
+                    <h4 class="widget-title mt-3 mb-3">Our Social</h4>
+                    <hr class="">
+                        <div class="social-buttons"> 
+                                <!-- whatsaap  Button -->
+                                <a href="#" target="blank" class="social-margin"> 
+                                  <div class="social-icon whatsapp">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i> 
+                                  </div>
+                                </a>     
+                                <!-- facebook  Button -->
+                                <a href="https://www.facebook.com/algoscale/" target="blank" class="social-margin"> 
+                                  <div class="social-icon facebook">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i> 
+                                  </div>
+                                </a>
+                                <!-- TwitterButton -->
+                                <a href="#" target="blank" class="social-margin">
+                                  <div class="social-icon twitter">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                  </div> 
+                                </a>
+                                <!-- Youtube Button -->
+                                <a href="https://www.linkedin.com/company/algoscale/?originalSubdomain=in"  class="social-margin">
+                                  <div class="social-icon youtube">
+                                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                  </div> 
+                                </a>
+                                <!-- Instagram Button -->
+                                <a href="#" class="social-margin">
+                                  <div class="social-icon instagram">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                  </div> 
+                                </a>
+                                <!-- pinterest Button -->
+                                <a href="#" target="blank"  class="social-margin">
+                                  <div class="social-icon pinterest">
+                                    <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+                                  </div>
+                                </a>
+                        </div>
+
+        </div>
+
+    </div>
+</div>
+<br><br>
+
+<style>
+    
+    .social-buttons {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.5);
+      padding-bottom: 5px;
+      border-radius: 10px;
+      text-align: center;
+      /*margin: 10px 10px;*/
+      /* Helper class to divide the icons */
+    }
+    .social-buttons .social-margin {
+      margin-right: 15px;
+    }
+    .social-buttons a,
+    .social-buttons a:hover,
+    .social-buttons a:focus,
+    .social-buttons a:active {
+      text-decoration: none;
+    }
+    .social-buttons .social-icon {
+      margin-bottom: 15px;
+      box-sizing: border-box;
+      -moz-border-radius: 138px;
+      -webkit-border-radius: 138px;
+      border-radius: 138px;
+      border: 5px solid;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      line-height: 1px;
+      padding-top: 11px;
+      transition: all 0.5s;
+      /* Facebook Button Styling */
+      /* Twitter Button Styling */
+      /* Google+ Button Styling */
+      /* Linkedin Button Styling */
+      /* Pinterest Button Styling */
+    }
+    .social-buttons .social-icon:hover {
+      transform: rotate(360deg) scale(1.3);
+    }
+    
+    .social-buttons .social-icon.whatsapp {
+      font-size: 22px;
+      padding-top: 9px;
+      border-color: green;
+      background-color: green;
+      color: #ffffff;
+    }
+    .social-buttons .social-icon.whatsapp:hover {
+      background-color: #ffffff;
+      color: green;
+    }
+    
+    .social-buttons .social-icon.facebook {
+      font-size: 22px;
+      padding-top: 9px;
+      border-color: #3b5998;
+      background-color: #3b5998;
+      color: #ffffff;
+    }
+    .social-buttons .social-icon.facebook:hover {
+      background-color: #ffffff;
+      color: #3b5998;
+    }
+    .social-buttons .social-icon.twitter {
+      font-size: 22px;
+      padding-top: 10px;
+      padding-left: 2px;
+      border-color: #55acee;
+      background-color: #55acee;
+      color: #ffffff;
+    }
+    .social-buttons .social-icon.twitter:hover {
+      background-color: #ffffff;
+      color: #55acee;
+    }
+    .social-buttons .social-icon.google-plus {
+      font-size: 22px;
+      padding-top: 9px;
+      padding-left: 2px;
+      background-color: #dd4b39;
+      color: #ffffff;
+      border-color: #dd4b39;
+    }
+    .social-buttons .social-icon.google-plus:hover {
+      background-color: #ffffff;
+      color: #dd4b39;
+    }
+    .social-buttons .social-icon.instagram {
+      font-size: 24px;
+      padding-top: 8px;
+      padding-left: 1px;
+      background-color: #3f729b;
+      color: #ffffff;
+      border-color: #3f729b;
+    }
+    .social-buttons .social-icon.instagram:hover {
+      background-color: #ffffff;
+      color: #3f729b;
+    }
+    .social-buttons .social-icon.pinterest {
+      font-size: 22px;
+      padding-top: 9px;
+      background-color: #cb2027;
+      color: #ffffff;
+      border-color: #cb2027;
+    }
+    .social-buttons .social-icon.pinterest:hover {
+      background-color: #ffffff;
+      color: #cb2027;
+    }
+    .social-buttons .social-icon.behance {
+      font-size: 22px;
+      padding-top: 9px;
+      background-color: #1769ff;
+      color: #ffffff;
+      border-color: #1769ff;
+    }
+    .social-buttons .social-icon.behance:hover {
+      background-color: #ffffff;
+      color: #1769ff;
+    }
+    .social-buttons .social-icon.github {
+      font-size: 22px;
+      padding-top: 9px;
+      background-color: #4183c4;
+      color: #ffffff;
+      border-color: #4183c4;
+    }
+    .social-buttons .social-icon.github:hover {
+      background-color: #ffffff;
+      color: #4183c4;
+    }
+    .social-buttons .social-icon.youtube {
+      font-size: 22px;
+      padding-top: 9px;
+      padding-left: 0px;
+      background-color: #bb0000;
+      color: #ffffff;
+      border-color: #bb0000;
+    }
+    .social-buttons .social-icon.youtube:hover {
+      background-color: #ffffff;
+      color: #bb0000;
+    }
+    .social-buttons .social-icon.soundcloud {
+      font-size: 22px;
+      padding-top: 9px;
+      padding-left: 0px;
+      background-color: #ff3a00;
+      color: #ffffff;
+      border-color: #ff3a00;
+    }
+    .social-buttons .social-icon.soundcloud:hover {
+      background-color: #ffffff;
+      color: #ff3a00;
+    }
+    
+    
+    
+     #btnset{
+           background: linear-gradient(45deg, #ffc707, #d43f8d);
+        border: 2px solid white;
+        color: #f8f9fa;";
+        }
+    </style>
+{% endblock %}

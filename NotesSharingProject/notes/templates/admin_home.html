@@ -1,0 +1,35 @@
+{% extends 'admin_nav.html' %}
+{% load static %}
+{% block body %}
+<style>
+
+.mydiv:hover{
+    transform: translateY(-10px);
+
+}
+.glow{
+    font-size: 80px;
+    color: #ffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+    form{
+          text-shadow: 0 0 10px #fff , 0 0 20px #fff , 0 0 30px #e60073,
+           0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,0 0 50px #ff4da6,
+        0 0 60px #ff4da6,0 0 70px #ff4da6,0 0 80px #ff4da6;
+    }
+}
+</style>
+<br><br>
+
+<br>
+<footer class="container mt-5 text-center">
+    <p style="font-size: 30pt; color:red ; font-weight:bold;">Welcome &copy;<script>document.write(new Date().getFullYear());</script> to Admin Page <span style="color: brown;">|</span><span style="color:#006400;">This website is made <i class="fas fa-heart icon-hear text-warning"> by </i></span><a class="glow" href="#" target="_blank"> Abhishek Singh</a></p>
+
+</footer>
+
+{% endblock %}
